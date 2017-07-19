@@ -1,0 +1,62 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="techtips.app10.Main2Activity">
+
+    <item
+        android:id="@+id/chat_videocall"
+        android:title="Video Call"
+        android:icon="@drawable/video_call"
+        app:showAsAction="always"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/chat_call"
+        android:title="Call"
+        android:icon="@drawable/call"
+        app:showAsAction="always"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/chat_viewcontact"
+        android:title="View Contact"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/chat_wallpaper"
+        android:title="Wallpaper"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/chat_media"
+        android:title="Media"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/chat_search"
+        android:title="Search"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/chat_mute"
+        android:title="Mute"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/chat_more"
+        android:title="More">
+        <group>
+            <menu>
+                <item
+                    android:id="@+id/chat_block"
+                    android:title="Block"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/chat_clearchat"
+                    android:title="Clear Chat"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/chat_emailchat"
+                    android:title="Email Chat"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/chat_addshortcut"
+                    android:title="Add Shortcut"
+                    app:showAsAction="never" />
+            </menu>
+        </group>
+    </item>
+</menu>

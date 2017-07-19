@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimary" >
+    <RelativeLayout
+        android:id="@+id/goBack"
+        android:onClick="backPress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/left_arrow"/>
+        <ImageView
+            android:layout_toRightOf="@+id/back"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/no_image"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_toRightOf="@+id/goBack"
+        android:layout_marginLeft="10dp"
+        android:onClick="profileClick"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/name"
+            android:text="Name"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/last_seen"
+            android:text="Last seen at 3:34 a.m"
+            android:textColor="#80ffffff"
+            android:layout_below="@+id/name"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

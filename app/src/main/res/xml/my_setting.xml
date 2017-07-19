@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Personal Details"
+        android:summary="Set your personal detail by tapping on your name."
+        >
+        <EditTextPreference
+            android:id="@+id/name"
+            android:dialogTitle="Your name"
+            android:dialogMessage="Enter your full name"
+            android:hint="Enter your name"
+            android:key="Name"/>
+
+        <CheckBoxPreference
+            android:id="@+id/select"
+            android:key="Select"
+            android:title="Display Name"
+            android:summaryOff="This appears when switch is off"
+            android:summaryOn="This will appear when switch is on"/>
+
+        <SwitchPreference
+            android:key="Show"
+            android:id="@+id/show"
+            android:title="Show or not"
+            android:summary="If you want to show then keep it on else turn it off"/>
+    </PreferenceCategory>
+</PreferenceScreen>

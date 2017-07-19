@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="techtips.app10.Chat">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/chat_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout="@layout/chat_toolbar"
+        android:background="?attr/colorPrimary"
+        android:padding="0dp"
+        android:elevation="4dp"
+        android:titleTextColor="@color/colorWhite"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="65dp">
+
+        <ListView
+            android:id="@+id/list"
+            android:background="@null"
+            android:divider="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/sendLayer"
+        android:background="@drawable/layout_bg"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/send"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="510dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="6dp"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp">
+
+        <ImageButton
+            android:id="@+id/emoji"
+            android:src="@drawable/emoji"
+            android:background="@drawable/layout_bg1"
+            android:layout_width="36dp"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="36dp" />
+
+        <EditText
+            android:id="@+id/chatBox"
+            android:layout_toRightOf="@+id/emoji"
+            android:hint="Type a message"
+            android:layout_toLeftOf="@+id/attachFile"
+            android:background="@null"
+            android:textSize="18sp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="100dp"
+            android:minHeight="36dp" />
+
+        <ImageButton
+            android:id="@+id/attachFile"
+            android:src="@drawable/attach"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/camera"
+            android:layout_width="25dp"
+            android:layout_height="30dp"  />
+
+        <ImageButton
+            android:id="@+id/camera"
+            android:src="@drawable/camera"
+            android:background="@drawable/layout_bg1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitCenter"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/send"
+            android:onClick="sendMessage"
+            android:layout_width="36dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/layout_bg_send"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/send"
+            android:layout_alignParentEnd="true"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:layout_height="36dp" />
+
+</RelativeLayout>
