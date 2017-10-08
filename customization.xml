@@ -124,6 +124,16 @@
     </group>
     <group value="AddToISuite" is_action="true" action_type="-1" position="0">
       <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <path value="Compile/Run Actions" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToISuite" is_action="true" action_type="-1" position="0">
+      <path value="root" />
       <path value="Editor Tab Popup Menu" />
       <path value="Editor Tab Popup Menu Actions (1)" />
       <path value="Run Configurations" />
@@ -133,6 +143,34 @@
     </group>
     <group value="AddToISuite" is_action="true" action_type="-1" position="0">
       <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToISuite" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToISuite" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToISuite" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Scope View Popup Menu" />
       <path value="Project View Popup Menu" />
       <path value="Project View Popup Menu Run Group" />
       <path value="Run Configurations" />
@@ -161,7 +199,33 @@
     </group>
     <group value="AddToISuite" is_action="true" action_type="-1" position="0">
       <path value="root" />
+      <path value="Favorites View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToISuite" is_action="true" action_type="-1" position="0">
+      <path value="root" />
       <path value="Commander View Popup Menu" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToISuite" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Commander View Popup Menu" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToISuite" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Navigation Bar" />
+      <path value="Project View Popup Menu Run Group" />
       <path value="Run Configurations" />
       <path value="RunContextGroup" />
       <path value="group.Add to pattern suite" />
@@ -188,6 +252,16 @@
     </group>
     <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
       <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <path value="Compile/Run Actions" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
+      <path value="root" />
       <path value="Editor Tab Popup Menu" />
       <path value="Editor Tab Popup Menu Actions (1)" />
       <path value="Run Configurations" />
@@ -197,6 +271,34 @@
     </group>
     <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
       <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Scope View Popup Menu" />
       <path value="Project View Popup Menu" />
       <path value="Project View Popup Menu Run Group" />
       <path value="Run Configurations" />
@@ -225,7 +327,33 @@
     </group>
     <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
       <path value="root" />
+      <path value="Favorites View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
+      <path value="root" />
       <path value="Commander View Popup Menu" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Commander View Popup Menu" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Navigation Bar" />
+      <path value="Project View Popup Menu Run Group" />
       <path value="Run Configurations" />
       <path value="RunContextGroup" />
       <path value="group.Add to pattern suite" />
@@ -568,6 +696,70 @@
     <group value="CleanGradleProject" is_action="true" action_type="1" position="6">
       <path value="root" />
       <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <path value="Compile/Run Actions" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Scope View Popup Menu" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Favorites View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Commander View Popup Menu" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="androidAddToISuite" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Navigation Bar" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <path value="group.Add to pattern suite" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Android.BuildApk" is_action="true" action_type="1" position="7">
