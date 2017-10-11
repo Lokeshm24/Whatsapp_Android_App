@@ -11,5 +11,5 @@ This android application is Open Source project and it gives general layout for 
 4. Collapsing Toolbar for contacts image view
 5. Image view in dialog box
 
-![alt text](https://github.com/Lokeshm24/Whatsapp_Android_App/blob/master/app/src/main/assets/Chat_Screen.png)
-![alt text](https://github.com/Lokeshm24/Whatsapp_Android_App/blob/master/app/src/main/assets/View_Profile.png)
+![]({{site.baseurl}}/https://github.com/Lokeshm24/Whatsapp_Android_App/blob/master/app/src/main/assets/Chat_Screen.png)
+![]({{site.baseurl}}/https://github.com/Lokeshm24/Whatsapp_Android_App/blob/master/app/src/main/assets/View_Profile.png)
